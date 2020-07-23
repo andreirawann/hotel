@@ -1,0 +1,226 @@
+/* CSS Document */
+
+body{
+	font-family:Arial;
+	font-size:14px;
+	padding:10px;
+	margin:0px;
+	background-image:url(image/bghotel1.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.container1{background-color:#FFFFFF;}
+.container2{background-image:url(image/bghotel3.jpg); height:250px;}
+.container3{background-color:#B8A521;}
+.container4{background-color:#FFFFFF; opacity:0.9;}
+.container5{background-color:#B8A521; color:#FFFFFF;}
+
+.grid{
+	width:100%;
+	padding-top:20px;
+	padding-bottom:20px;
+	overflow:hidden;
+}
+
+.dh1 { width:6.25%; }
+.dh2 { width:14.58%; }
+.dh3 { width:22.91%; }
+.dh4 { width:31.25%; }
+.dh5 { width:39.58%; }
+.dh6 { width:47.91%; }
+.dh7 { width:56.25%; }
+.dh8 { width:64.58%; }
+.dh9 { width:72.91%; }
+.dh10{ width:81.25%; }
+.dh11{ width:89.58%; }
+.dh12{ width:97.91%; }
+
+.dh1, .dh2, .dh3, .dh4, .dh5, .dh6, .dh7, .dh8, .dh9, .dh10, .dh11, .dh12{
+	float:left;
+	display:inline;
+	margin:0 1.04%;
+}
+
+@media screen and (max-width:720px){
+	.dh1, .dh2, .dh3, .dh4, .dh5, .dh6, .dh7, .dh8, .dh9, .dh10, .dh11, .dh12{
+		width:97.91%;
+		margin-bottom:1em;
+	}
+}
+
+#login, #formadd{
+	position:relative;
+	display:block;
+	background-color:#FFFFFF;
+	box-shadow:0 0 5px #aaa;
+}
+
+#login{
+	max-width:350px;
+	margin:60px auto;
+}
+
+#formadd{
+	max-width:90%;
+	margin:10px auto;
+}
+
+#isiadmin{
+	max-width:95%;
+	padding:10px;
+	margin-top:5px;
+	margin-right:10px;
+	height:auto;
+}
+
+#login h3{
+	text-align:center;
+	color:#B8A521;
+	font-size:24px;
+	padding:15px 5px;
+}
+
+h3, big{
+	text-align:center;
+	color:#B8A521;
+	font-size:24px;
+}
+
+#view{
+	max-width:100%;
+	margin:5px auto;
+	position:relative;
+	display:block;
+	background-color:#FFFFFF;
+	box-shadow:0 0 1px #aaa;
+}
+
+#prd{
+	max-width:100%;
+	margin:10px auto;
+	position:relative;
+	display:block;
+	background-color:#FFFFFF;
+	box-shadow: 0 0 5px #aaa;
+}
+
+fieldset{
+	margin:10px;
+	border:none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+select, textarea {
+	width:97%;
+	padding:0.8em;
+	margin-top:1em;
+	border:1px solid #999999;
+	background-color:#E9E9E9;
+	color:#B8A521;
+	font-family:Arial;
+	font-size:14px;
+}
+
+select{
+	width:auto;
+	padding:0.8em;
+	margin-top:1em;
+	border:1px solid #999999;
+	background-color:#E9E9E9;
+	color:#B8A521;
+	font-family:Arial;
+	font-size:14px;
+}
+
+option{
+	padding:10px;
+}
+
+input[type="submit"]{
+	width:100%;
+	margin-top:0.9em;
+	color:#FFFFFF;
+	background-color:#B8A521;
+	padding:0.8em;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid #999999;
+	font-family:Arial;
+	font-size:14px;
+}
+
+/* BAGIAN MENU */
+ul#menu{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	width:auto;
+	height:45px;
+	display:block;
+	position:relative;
+	font-size:14px;
+	background-color:#B8A521;
+}
+ul#menu li{
+	display:block;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+ul#menu li a{
+	float:left;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding:12px 10px 3px 10px;
+	height:30px;
+	background-color:#B8A521;
+	width:auto;
+}
+ul#menu li a:hover{
+	color:#FFFFFF;
+	background-color:#333333;
+}
+
+table{
+	width:100%;
+}
+th{
+	text-align:center;
+	padding:10px;
+	background-color:#B8A521;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:14px;
+}
+td{
+	padding:10px;
+	background-color:#FFFFFF;
+	font-size:14px;
+		
+}
+a{ color:#B8A521; text-decoration:none;}
+a:hover{ color:#333333;}
+
+.btn{
+	font-family:Arial;
+	font-size:14px;
+	padding:5px 5px;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid transparent;
+	border-radius:4px;
+	width:auto;
+}
+.btn-more{ 
+	color:#FFFFFF; 
+	background-color:#B8A521;
+	border-color:#B8A521;
+}
+.btn-more:hover{ 
+	color:#FFFFFF; 
+	background-color:#333333;
+	border-color:#333333;
+}
